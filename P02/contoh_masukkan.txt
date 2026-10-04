@@ -1,0 +1,15 @@
+=== SiNilai v0.1 ===
+Nama      : Aditya Hendy Novian
+NPM       : 2510010124
+Kehadiran : 80
+Mingguan  : 85
+UTS       : 90
+UAS       : 88
+
+--- Kartu Data Mahasiswa ---
+Nama      : Aditya Hendy Novian
+NPM       : 2510010124
+Kehadiran : 80
+Mingguan  : 85
+UTS       : 90
+UAS       : 88
