@@ -1,0 +1,17 @@
+4. x → nilai_uts
+Nama x terlalu umum dan tidak menjelaskan isi variabel. 
+nilai_uts lebih jelas karena menunjukkan bahwa variabel menyimpan nilai UTS.
+
+a → jumlah_mahasiswa
+Nama a tidak memberikan informasi tentang data yang disimpan. 
+jumlah_mahasiswa langsung menjelaskan bahwa variabel berisi jumlah mahasiswa.
+
+data → nilai_mahasiswa
+data terlalu luas dan bisa berarti apa saja. nilai_mahasiswa lebih spesifik dan mudah dipahami.
+
+temp → rata_rata_sementara
+temp biasanya berarti temporary, tetapi tidak menjelaskan data apa yang disimpan. rata_rata_sementara lebih informatif.
+
+n → jumlah_nilai
+Nama n terlalu singkat sehingga sulit diketahui maksudnya. 
+jumlah_nilai menjelaskan bahwa variabel digunakan untuk menyimpan jumlah nilai.
