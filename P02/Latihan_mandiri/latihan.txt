@@ -1,3 +1,6 @@
+3.int nilai = 85.7; diterima compiler dan menghasilkan 85. Nilai desimal .7 dibuang karna terjadi konversi dari double ke int
+int nilai{85.7}; ditolak compiler karena {} tidak mengizinkan narrowing conversion dari double ke int
+
 4. x → nilai_uts
 Nama x terlalu umum dan tidak menjelaskan isi variabel. 
 nilai_uts lebih jelas karena menunjukkan bahwa variabel menyimpan nilai UTS.
