@@ -20,7 +20,7 @@ int main() {
     double uts = 0;
     double uas = 0;
 
-    cout << "=== SiNilai v0.2 ===\n";
+    cout << "=== SiNilai v0.2 ===\n";   
 
     cout << "Nama : ";
     getline(cin, nama);

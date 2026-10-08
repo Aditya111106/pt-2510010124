@@ -1,0 +1,12 @@
+4. saya memilih ekspresi 2 + 3 * 4, 2 * 3 / 4, 2 / 4 * 3
+ekspresi pertama 2 + 3 * 4 hasilnya sama 14 karena perkalian (*) 
+memiliki prioritas lebih tinggi daripada penjumlahan (+).
+
+ekspresi kedua 2 * 3 / 4 hasilnya berbeda, di c++ = 1
+di python = 1.5, karena pembagian / di C++ jika kedua operand berupa int 
+menghasilkan integer division, sehingga 6 / 4 menjadi 1. Sedangkan Python 
+menggunakan / untuk pembagian biasa yang menghasilkan float, yaitu 1.5.
+
+ekspresi ketiga 2 / 4 * 3 hasilnya berbeda, di c++ = 0
+di python = 1.5, karena sama seperti sebelumnya. C++ melakukan pembagian integer:
+2 / 4 = 0, sedangkan Python: 2 / 4 = 0.5 Kemudian 0.5 * 3 = 1.5.
