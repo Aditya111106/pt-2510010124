@@ -40,4 +40,21 @@ Folder `p02` di repository `pt-NPM` berisi `sinilai_v01.cpp`, dan  `README.md`. 
 
 ## Deklarasi AI
 
-Tuliskan AI yang digunakan, prompt, dan umpan balik AI
+Chat Gpt, cara menjalankan program yang ada di folder P02, Buka Terminal di folder utama
+Buka folder ProjectCpp di VS Code, lalu pilih Terminal → New Terminal.
+
+Ketik perintah berikut:
+
+bash
+cd Latihan/Program
+Perintah cd digunakan untuk masuk ke folder yang dituju.
+
+Kalau berhasil, Terminal sekarang berada di folder Program, tempat file main.cpp berada.
+
+Compile dan jalankan program C++
+Jika kamu menggunakan compiler GCC (g++):
+
+Langkah pertama — compile program:
+
+bash
+g++ main.cpp -o main
