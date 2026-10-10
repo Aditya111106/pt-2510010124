@@ -1,3 +1,7 @@
+3. kapan kedua nya sama persis? ketika nilai akhir dikurang rata rata polos menghasilkan nilai 0.
+saya coba pada semua nilai akhir di 80, kehadiran 80, mingguan 80, uts 80, uas 80 maka akan menghasilkan nilai
+akhir 80 juga dan rata polos nya juga 80, jika nilai akhir - rata polos akan menjadi 0
+
 4. saya memilih ekspresi 2 + 3 * 4, 2 * 3 / 4, 2 / 4 * 3
 ekspresi pertama 2 + 3 * 4 hasilnya sama 14 karena perkalian (*) 
 memiliki prioritas lebih tinggi daripada penjumlahan (+).
