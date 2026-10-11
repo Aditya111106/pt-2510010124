@@ -27,6 +27,10 @@ di modul (Gambar 2 sampai 7); baca gambarnya dulu, baru kodenya.
 | 59.9 x4 | 59.9 | D | Kurang | Belum lulus |
 | 30 x4 | 30 | E | Sangat kurang | Belum lulus |
 
+## Tugas Mandiri flowchart 
+
+![alt text](photo_2026-10-11_17-22-52.jpg)
+
 ## Yang dikumpulkan mahasiswa
 
 Folder `p04` di repository `pt-NPM` berisi `sinilai_v03.cpp` dan  `README.md`. Lihat Modul Pertemuan 4 bagian E.
