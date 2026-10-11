@@ -18,3 +18,5 @@ temp biasanya berarti temporary, tetapi tidak menjelaskan data apa yang disimpan
 n → jumlah_nilai
 Nama n terlalu singkat sehingga sulit diketahui maksudnya. 
 jumlah_nilai menjelaskan bahwa variabel digunakan untuk menyimpan jumlah nilai.
+
+

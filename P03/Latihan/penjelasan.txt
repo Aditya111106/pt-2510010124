@@ -14,3 +14,6 @@ menggunakan / untuk pembagian biasa yang menghasilkan float, yaitu 1.5.
 ekspresi ketiga 2 / 4 * 3 hasilnya berbeda, di c++ = 0
 di python = 1.5, karena sama seperti sebelumnya. C++ melakukan pembagian integer:
 2 / 4 = 0, sedangkan Python: 2 / 4 = 0.5 Kemudian 0.5 * 3 = 1.5.
+
+
+

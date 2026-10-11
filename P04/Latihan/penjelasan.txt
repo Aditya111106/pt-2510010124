@@ -1,0 +1,6 @@
+4. yang berubah pada case adalah jika pilihan yang awalnya bertype int, diubah menjadi char
+yaitu pada penulisan case, yang awalnya jika pakai int case 1 :, dan sekarang dirubah menjadi type char
+menjadi case '1' :, karna char dibacanya karakter bukan bilangan bulat jadi harus pakai tanda ''
+
+5. hasilnya akan selalu sama dikarenakan menggunakan switch yang memuat static_cast<int>(nilai) / 10
+karna itu akan membulatkan bilangan pecahan pada hasil pembagian dengan 10
