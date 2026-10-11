@@ -1,3 +1,7 @@
+1. Dari Gambar 4, pola yang berulang adalah keputusan bertingkat menggunakan if-else. 
+Setiap keputusan memeriksa batas nilai. Jika jawabannya “ya”, program 
+mencetak huruf mutu; jika “tidak”, program lanjut ke keputusan berikutnya.
+
 4. yang berubah pada case adalah jika pilihan yang awalnya bertype int, diubah menjadi char
 yaitu pada penulisan case, yang awalnya jika pakai int case 1 :, dan sekarang dirubah menjadi type char
 menjadi case '1' :, karna char dibacanya karakter bukan bilangan bulat jadi harus pakai tanda ''

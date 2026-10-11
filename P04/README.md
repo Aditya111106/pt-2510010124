@@ -31,6 +31,44 @@ di modul (Gambar 2 sampai 7); baca gambarnya dulu, baru kodenya.
 
 ![alt text](photo_2026-10-11_17-22-52.jpg)
 
+Programnya ini 
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int nilai;
+
+    cout << "Masukkan nilai: ";
+    cin >> nilai;
+
+    if (nilai >= 80) {
+        cout << "Huruf mutu: A" << endl;
+    }
+    else if (nilai >= 75) {
+        cout << "Huruf mutu: B+" << endl;
+    }
+    else if (nilai >= 70) {
+        cout << "Huruf mutu: B" << endl;
+    }
+    else if (nilai >= 65) {
+        cout << "Huruf mutu: C+" << endl;
+    }
+    else if (nilai >= 60) {
+        cout << "Huruf mutu: C" << endl;
+    }
+    else if (nilai >= 50) {
+        cout << "Huruf mutu: D" << endl;
+    }
+    else {
+        cout << "Huruf mutu: E" << endl;
+    }
+
+    return 0;
+}
+
+
 ## Yang dikumpulkan mahasiswa
 
 Folder `p04` di repository `pt-NPM` berisi `sinilai_v03.cpp` dan  `README.md`. Lihat Modul Pertemuan 4 bagian E.
