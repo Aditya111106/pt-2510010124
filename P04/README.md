@@ -33,40 +33,38 @@ di modul (Gambar 2 sampai 7); baca gambarnya dulu, baru kodenya.
 
 Programnya ini 
 
-
-#include <iostream>
+include <iostream>
 using namespace std;
 
-int main() {
-    int nilai;
-
-    cout << "Masukkan nilai: ";
-    cin >> nilai;
+int main () {
+    cout << "Masukkan Nilai :";
+    cint >> nilai;
 
     if (nilai >= 80) {
-        cout << "Huruf mutu: A" << endl;
+        cout << "Huruf mutu : A << endl
     }
     else if (nilai >= 75) {
-        cout << "Huruf mutu: B+" << endl;
+        cout << "Huruf mutu : B+ << endl
     }
     else if (nilai >= 70) {
-        cout << "Huruf mutu: B" << endl;
+        cout << "Huruf mutu : B << endl
     }
     else if (nilai >= 65) {
-        cout << "Huruf mutu: C+" << endl;
+        cout << "Huruf mutu : C+ << endl
     }
     else if (nilai >= 60) {
-        cout << "Huruf mutu: C" << endl;
+        cout << "Huruf mutu : C << endl
     }
     else if (nilai >= 50) {
-        cout << "Huruf mutu: D" << endl;
+        cout << "Huruf mutu : D << endl
     }
-    else {
-        cout << "Huruf mutu: E" << endl;
+    else{
+        cout << "Huruf mutu : E << endl
     }
 
     return 0;
 }
+
 
 
 ## Yang dikumpulkan mahasiswa
