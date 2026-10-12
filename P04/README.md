@@ -72,5 +72,4 @@ int main () {
 Folder `p04` di repository `pt-NPM` berisi `sinilai_v03.cpp` dan  `README.md`. Lihat Modul Pertemuan 4 bagian E.
 
 ## Deklarasi AI
-
-Tuliskan AI yang digunakan, prompt, dan umpan balik AI
+Tidak menggunakan AI

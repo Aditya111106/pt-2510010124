@@ -33,4 +33,4 @@ Folder `p03` di repository `pt-NPM` berisi `sinilai_v02.cpp` dan  `README.md`. L
 
 ## Deklarasi AI
 
-Tuliskan AI yang digunakan, prompt, dan umpan balik AI
+Tidak menggunaka AI
