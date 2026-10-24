@@ -1,6 +1,6 @@
-// SiNilai v0.4: memproses banyak mahasiswa sekaligus dan mencetak rekap kelas.
-// Dibangun di atas v0.3: seluruh perhitungan satu mahasiswa dibungkus perulangan.
-// Kepala perulangan, akumulator, dan rekap adalah bagian yang harus kamu lengkapi.
+// SiNilai v0.4: memproses banyak mahasiswa sekaligus
+// Menggunakan do-while, for, akumulator, dan rekap kelas
+
 #include <iostream>
 #include <string>
 
@@ -13,42 +13,58 @@ int main() {
     const double BOBOT_UAS = 0.20;
 
     int jumlah_mahasiswa = 0;
+
     cout << "=== SiNilai v0.4 ===\n";
-   do {
-    cout << "Jumlah mahasiswa (paling sedikit 1): ";
-    cin >> jumlah_mahasiswa;
-   } while (jumlah_mahasiswa < 1);
 
-   double total_nilai = 0;
-   int jumlah_lulus = 0;
-    
+    // TODO 1: Mengulang pertanyaan jika jumlah mahasiswa kurang dari 1
+    do {
+        cout << "Jumlah mahasiswa (paling sedikit 1): ";
+        cin >> jumlah_mahasiswa;
+    } while (jumlah_mahasiswa < 1);
 
-    for (int i = 1; i <= jumlah_mahasiswa; i++) { // TODO 3: ganti kurung kurawal pembuka ini dengan kepala for yang menghitung i dari 1 sampai jumlah_mahasiswa
+    // TODO 2: Deklarasi akumulator sebelum perulangan
+    double total_nilai = 0;
+    int jumlah_lulus = 0;
+
+    // TODO 3: Perulangan untuk memproses semua mahasiswa
+    for (int i = 1; i <= jumlah_mahasiswa; i++) {
         string nama;
         string npm;
+
         double kehadiran = 0;
         double mingguan = 0;
         double uts = 0;
         double uas = 0;
 
-        cout << "\n--- Mahasiswa ke-" << 1 << " dari " << jumlah_mahasiswa << " ---\n";   // ganti angka 1 dengan i
+        cout << "\n--- Mahasiswa ke-" << i
+             << " dari " << jumlah_mahasiswa << " ---\n";
+
         cout << "Nama      : ";
-        getline(cin >> ws, nama);   // cin >> ws membuang sisa Enter dari angka sebelumnya
+        getline(cin >> ws, nama);
+
         cout << "NPM       : ";
         cin >> npm;
+
         cout << "Kehadiran : ";
         cin >> kehadiran;
+
         cout << "Mingguan  : ";
         cin >> mingguan;
+
         cout << "UTS       : ";
         cin >> uts;
+
         cout << "UAS       : ";
         cin >> uas;
 
-        double nilai_akhir = kehadiran * BOBOT_KEHADIRAN + mingguan * BOBOT_MINGGUAN
-                           + uts * BOBOT_UTS + uas * BOBOT_UAS;
+        double nilai_akhir =
+            kehadiran * BOBOT_KEHADIRAN +
+            mingguan * BOBOT_MINGGUAN +
+            uts * BOBOT_UTS +
+            uas * BOBOT_UAS;
 
         string huruf_mutu;
+
         if (nilai_akhir >= 80) {
             huruf_mutu = "A";
         } else if (nilai_akhir >= 75) {
@@ -68,19 +84,24 @@ int main() {
         bool lulus = nilai_akhir >= 60;
 
         string keterangan;
+
         switch (huruf_mutu[0]) {
             case 'A':
                 keterangan = "Sangat baik";
                 break;
+
             case 'B':
                 keterangan = "Baik";
                 break;
+
             case 'C':
                 keterangan = "Cukup";
                 break;
+
             case 'D':
                 keterangan = "Kurang";
                 break;
+
             default:
                 keterangan = "Sangat kurang";
         }
@@ -91,25 +112,29 @@ int main() {
         cout << "Nilai akhir : " << nilai_akhir << "\n";
         cout << "Huruf mutu  : " << huruf_mutu << "\n";
         cout << "Keterangan  : " << keterangan << "\n";
+
         if (lulus) {
             cout << "Status      : Lulus\n";
         } else {
             cout << "Status      : Belum lulus\n";
         }
-        // TODO 4: tambahkan nilai_akhir ke total_nilai, dan tambah jumlah_lulus bila lulus.
+
+        // TODO 4: Mengakumulasi nilai dan menghitung jumlah mahasiswa lulus
         total_nilai += nilai_akhir;
-        
-        if(lulus){
+
+        if (lulus) {
             jumlah_lulus++;
         }
     }
 
-    // TODO 5: cetak rekap kelas dengan format berikut (sejajar seperti kartu):
-     cout << "=== Rekap Kelas ===\n";
-      cout << "Jumlah mahasiswa :"<< jumlah_mahasiswa << "\n";
-      cout << "Lulus            :" << jumlah_lulus << "\n";
-      cout << "Belum lulus      :" << jumlah_mahasiswa - jumlah_lulus << "\n";
-      cout << "Rata-rata kelas  :" << total_nilai / jumlah_mahasiswa << "\n";
+    // TODO 5: Menampilkan rekap kelas
+    cout << "\n=== Rekap Kelas ===\n";
+    cout << "Jumlah mahasiswa : " << jumlah_mahasiswa << "\n";
+    cout << "Lulus            : " << jumlah_lulus << "\n";
+    cout << "Belum lulus      : "
+         << jumlah_mahasiswa - jumlah_lulus << "\n";
+    cout << "Rata-rata kelas  : "
+         << total_nilai / jumlah_mahasiswa << "\n";
 
     return 0;
 }
